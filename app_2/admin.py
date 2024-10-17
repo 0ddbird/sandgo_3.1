@@ -1,11 +1,11 @@
 from django.contrib import admin
 
-from app_1.models import ModelOne
+from app_2.models import ModelTwo
 
 
 # Register your models here.
-@admin.register(ModelOne)
-class ModelOneAdmin(admin.ModelAdmin):
+@admin.register(ModelTwo)
+class ModelTwoAdmin(admin.ModelAdmin):
     list_display = (
         "id",
         "created",

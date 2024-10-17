@@ -1,10 +1,12 @@
-import uuid
 from django.db import models
 
+# Create your models here.
+import uuid
 
-class ModelOne(models.Model):
+
+class ModelTwo(models.Model):
     """
-    A first dummy model.
+    A second dummy model.
     """
 
     id = models.UUIDField(
